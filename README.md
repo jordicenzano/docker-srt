@@ -1,5 +1,5 @@
 # docker-srt
-Docker image definition with compiled srt live streaming protocol
+Docker image definition with compiled SRT live streaming protocol
 
 # Pulling docker image from docker hub
 1. Ensure you have [docker](https://www.docker.com) installed
@@ -17,8 +17,9 @@ docker run --rm -it jcenzano/docker-srt
 
 # Using the image
 
-For now the SRT protocol only works with pipes, making this image almost useless :-(
+According to my testing, for now the SRT protocol only works with pipes, making this image almost useless :-(.
+See: https://github.com/Haivision/srt/issues/86
 
 ```
-TODO
+TODO (waiting to fix the problem with UDP input)
 ```
