@@ -14,7 +14,7 @@ Docker image definition with compiled [SRT](https://github.com/Haivision/srt) li
 ```
 docker run --rm -it jcenzano/docker-srt
 ```
-2. To test it with real live video, if you have [ffmpeg](https://www.ffmpeg.org/) installed you can do:
+2. To test it in a single machine with real live video, if you have [ffmpeg](https://www.ffmpeg.org/) installed you can do:
 ```
 #Terminal 1: Run SRT RX
 MY_IP="10.0.0.2" #Replace it with your machine's IP
