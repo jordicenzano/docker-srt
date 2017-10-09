@@ -4,7 +4,7 @@
 # Import docker repo (docker hub creds)
 include ./secrets/docker-creds.secrets
 
-DOCKER_IMAGE_NAME = srt
+DOCKER_IMAGE_NAME = docker-srt
 DOCKER_IMAGE_VERSION = 1.0
 
 # Import docker repo (docker hub creds)
